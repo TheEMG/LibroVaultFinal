@@ -1,0 +1,322 @@
+/* Home.css */
+
+.home-container {
+    background-color: #5a25a0; /* Dark purple background */
+    color: #ffffff; /* White text color */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+    /* Optional: Add some padding and center the content */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Darker purple for the header */
+}
+
+/* Style input fields */
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Style buttons */
+button {
+    background-color: #1a142a; /* Darker purple for buttons */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+    button:hover {
+        background-color: #ac0b0b; /* Dark purple on hover */
+    }
+
+
+h2 {
+   
+    color: #ffffff; /* White text color */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+}
+
+h3{
+    color: #ffffff; /* White text color */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+    font-size: small;
+}
+
+
+
+body {
+    background-color: #401b70; /* Dark purple background */
+    color: #ffffff; /* White text color */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+}
+
+  /*.capsuleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px; 
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+   /* margin: 20px; 
+  }
+
+/*Eric's work starts here*/
+/*Section 1 and section 3 where combine as seen below since the elements align to the right (the image does)
+  Section 3 elements align to the left so thats why its different*/
+.info-section3,
+.info-section{
+
+    padding-top: 50px; ;
+    
+    justify-content: space-between;
+  
+    margin-bottom: 100px;
+    display: flex;
+    border-radius: 25px;
+   
+}
+
+.info-section{
+
+  align-items: top;
+  
+}
+
+.thirdInformationSection,
+.informationSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns flex items to the start of the container on the cross axis */
+
+  }
+
+
+
+  .thirdInformationSection p,
+.informationSection p {
+  text-align: left;
+  padding:10px;
+  font-size: 25px;
+  line-height: 2;
+ 
+}
+.informationSection h2,
+.thirdInformationSection h2{
+  padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.capsuleBox1{
+  background-color: red;
+}
+
+.thirdImage,
+.firstImage{
+    width: 600;
+    height: 460;
+    border-radius: 200px;
+    margin-left: 80px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.secondImage,
+.firstImage{
+  width: 700px;
+  height: 363px;
+  object-fit: cover;
+  border: #1a142a;
+}
+
+.thirdImage{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.thirdImageThird,
+.section1Image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+/*end of section 1 and 3*/
+
+.info-section2{
+   
+    display: flex;
+    flex-direction: row-reverse; /* This will reverse the order of the flex items */
+    justify-content: space-between;
+    align-items: top;
+  
+    border-radius: 25px;
+    margin-bottom: 50px;
+    
+}
+.info-section2{
+
+  align-items: top;
+  
+}
+
+.SecondinformationSection {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-right: 0; /* Remove padding to ensure h2 touches the right side */
+}
+
+.SecondinformationSection p{
+   
+    text-align: left;
+    font-size: 25px;
+    line-height: 2;
+    padding-left: 80px;
+
+
+}
+
+.SecondinformationSection h2 {
+    text-align: right;
+    padding-right: 60px;
+    font-size: 28px;
+}
+
+.secondImagetwo{
+  display: flex;
+
+  align-items: center;
+
+}
+
+.secondImage{
+   
+    border-radius: 200px;
+    width: 600;
+    height: 460;
+    padding: auto;
+}
+
+.capsuleBox::before,
+.capsuleBox::after {
+  content: '';
+  width: 20px;
+  height: 100%;
+  background-color:  rgb(51, 51, 51);
+  border-radius: 50%;
+  
+}
+
+.capsuleBox::before {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.capsuleBox::after {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer img {
+  width: 1000px;
+  height: auto;
+  margin: 0 5px; 
+}
+
+h2.capsule{
+  background-color: #5a25a0;
+  margin-bottom: 81px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .info-section,
+  .info-section2,
+  .info-section3 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .info-section3,
+  .info-section2 {
+      margin-bottom: 50px;
+  }
+
+  .thirdImage,
+  .firstImage,
+  .secondImage {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 20px;
+  }
+
+  .info-section2 {
+      flex-direction: column-reverse;
+  }
+
+  .SecondinformationSection h2 {
+      padding-right: 0;
+      text-align: left;
+  }
+
+  .SecondinformationSection p {
+      padding-left: 0;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info-section,
+  .info-section2,
+  .info-section3 {
+      padding: 20px;
+  }
+
+  .info-section3,
+  .info-section2 {
+      margin-bottom: 20px;
+  }
+
+  .informationSection h2,
+  .thirdInformationSection h2,
+  .SecondinformationSection h2 {
+      font-size: 24px;
+  }
+
+  .informationSection p,
+  .thirdInformationSection p,
+  .SecondinformationSection p {
+      font-size: 18px;
+  }
+}

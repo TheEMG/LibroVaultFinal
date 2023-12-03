@@ -1,0 +1,133 @@
+/* MainApplication.css */
+
+body {
+    background-color: #333; /* Slightly lighter purple background */
+    color: #ffffff; /* White text color */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+}
+
+
+header {
+    background-color: #333; 
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #2a114b; /* Dark purple sidebar background */
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #494545;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.sidebar button.add-library {
+    background-color: #1a142a; /* Grey background color */
+    color: #ffffff; /* White text color */
+}
+
+.sidebar button:hover {
+    background-color: #9807ab; /* Slightly lighter purple on hover */
+} 
+
+.books {
+    flex-grow: 4;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #5a25a0;
+}
+
+    .books h2 {
+        color: #1a142a; /* Darker purple for section headers */
+    }
+
+    .books button {
+        background-color: #1a142a; /* Darker purple for buttons */
+        color: #ffffff; /* White text color */
+        padding: 10px;
+        margin: 5px 0;
+        cursor: pointer;
+        border: none;
+    }
+
+        .books button:hover {
+            background-color: #a243d6; /* Slightly lighter purple on hover */
+        }
+
+    .books input,
+    .books select {
+        margin: 5px 0;
+        padding: 10px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .books div {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #1a142a; /* Darker purple border */
+    }
+
+        .books div button {
+            background-color: #1a142a; /* Darker purple for buttons */
+            color: #ffffff; /* White text color */
+            padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            border: none;
+        }
+
+            .books div button:hover {
+                background-color: #7707ab; /* Slightly lighter purple on hover #3b2f56*/
+
+            }
+
+ .footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+ .footer img {
+   width: 1000px;
+  height: auto;
+  margin: 0 5px; 
+ }
+              
+ .books-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Number of columns */
+    gap: 20px; /* Adjust the gap between items */
+}
+
+.book-card {
+    border: 1px solid #1a142a;
+    padding: 10px;
+    background-color: #1a142a;
+    color: #ffffff;
+}
+
+.credits {
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+    margin-bottom: 200px;
+}
