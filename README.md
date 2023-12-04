@@ -70,4 +70,45 @@ As a key contributor to the Personal Library Web Application development team, I
 
 
 
+### Jose Barrera
+**GitHub Username:** JoseBarr2002
+
+**Roles:** 
+- Front-end Development
+- Back-end Development
+
+**Technologies Used:**
+- Java
+- Spring Boot
+- MongoDB
+- JavaScript
+- React
+
+**Back-end Contributions:**
+- Developed the 'Library' entity, crafting its model, service, controller, DTO (Data Transfer Object), and repository within the Spring Boot framework.
+
+**Front-end Contributions:**
+- Played a key role in implementing essential features such as adding, deleting, and renaming libraries on the front-end.
+- Integrated front-end components with back-end services to fetch and display library data effectively.
+
+### Colton Booth
+**GitHub Username:** Tryconic
+
+**Roles:** 
+- Front-end Development
+- Visual Design
+
+**Technologies Used:**
+- JavaScript
+- React
+- Cascading Style Sheets (CSS)
+- HTML5
+
+**Front-end Contributions:**
+- Developed intuitive and secure login elements for the webpage.
+- Engineered the layout functionality, ensuring a responsive and user-friendly interface.
+- Integrated advertisement features, balancing user experience with business needs.
+- Applied graphic design expertise to enhance the visual appeal across the application.
+
+
 
